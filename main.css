@@ -8,9 +8,13 @@ body {
     color: white;
 }
 
+a {
+    color: #1D6AB3;
+}
+
 section .page {
     box-sizing: border-box;
-    margin: 0;
+    margin: 20%;
     padding: 0;
     background-color: #24252A;
 }
