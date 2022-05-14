@@ -40,6 +40,18 @@
         <br/>
         
         <a href="https://projet-animation-lune-de-givre.netlify.app/test-toon-shader-suzanne">Vidéo de test du "toon shader" sur Suzanne</a></p>
+        
+        
+        <?php
+            // Instruction 1
+            $fp = fopen ("donnees.txt", "r");
+            // Instruction 2
+            $contenu_du_fichier = fgets ($fp, 255);
+            // Instruction 3
+            fclose ($fp);
+            // Instruction 4
+            echo 'Notre fichier contient : '.$contenu_du_fichier;
+        ?>
 
         
     </body>
