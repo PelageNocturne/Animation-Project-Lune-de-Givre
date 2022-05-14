@@ -2,7 +2,7 @@
 
 
 body {
-    font-size: 1.3em;
+    font-size: 2em;
     font-family: "Montserrat", sans-serif;
     background-color: #22242B; 
     color: white;
@@ -14,11 +14,11 @@ body {
 h1 {
     font-size: 3.5em;
     text-align: center;
-    margin-top: 35%;
+    margin-top: 25%;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-align: center
     margin-left: 25%;
 }
