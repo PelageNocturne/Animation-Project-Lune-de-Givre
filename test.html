@@ -31,6 +31,12 @@ y.innerHTML = "Browser Window: width: " + windowWidth + ", height: " + windowHei
 
 var z = document.getElementById("page");
 z.innerHTML = "Webpage: width:" + pageWidth + ", height: " + pageHeight + ".";
+  
+if (windowWidth > windowHeight) {
+  document.write('navigateur format paysage');
+} else {
+  document.write('navigateur format portrait');
+}
 
 </script>
 </body>
