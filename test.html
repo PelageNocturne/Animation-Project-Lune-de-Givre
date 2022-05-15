@@ -6,21 +6,7 @@
     
     <meta charset="utf-8" />
     
-    <script>
-
-    // Get the browser window size
-    fonction sensNavigateur() {
-    var windowWidth = window.innerWidth;
-    var windowHeight = window.innerHeight;
-  
-    if (windowWidth > windowHeight) {
-      document.write('<title>pc</title>');
-    } else {
-      document.write('<title>portable</title>');
-    }
-    };
-
-    </script>
+    
     
     
     
@@ -29,6 +15,22 @@
 <p id="screen"></p>
 <p id="window"></p>
 <p id="page"></p>
+  
+  <script>
+
+    // Get the browser window size
+    fonction sensNavigateur() {
+    var windowWidth = window.innerWidth;
+    var windowHeight = window.innerHeight;
+  
+    if (windowWidth > windowHeight) {
+      document.write('<p>pc</p>');
+    } else {
+      document.write('<p>portable</p>');
+    }
+    };
+
+  </script>
   
   text text test 2
 
