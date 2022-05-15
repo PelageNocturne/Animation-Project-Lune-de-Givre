@@ -5,7 +5,7 @@
   <head>
     
     <meta charset="utf-8" />
-    <link rel="stylesheet" href=<script>
+    <link rel="stylesheet" href=<script>sensNavigateur();</script>>
     
   </head>
 
@@ -16,15 +16,19 @@
 <script>
 
 // Get the browser window size
+fonction sensNavigateur() {
 var windowWidth = window.innerWidth;
 var windowHeight = window.innerHeight;
   
 if (windowWidth > windowHeight) {
   document.write('navigateur format paysage');
+  return('main.css');
   
 } else {
   document.write('navigateur format portrait');
+  return('');
 }
+};
 
 </script>
 </body>
