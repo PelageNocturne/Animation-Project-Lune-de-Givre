@@ -8,7 +8,18 @@
             
             <meta charset="utf-8" />
             <title>Meow... Page introuvable</title>
-            <link rel="stylesheet" href="404error.css">
+            <script>
+
+                var windowWidth = window.innerWidth;
+                var windowHeight = window.innerHeight;
+  
+                if (windowWidth > windowHeight) {
+                    document.write('<link rel="stylesheet" href="404error.css">');
+                } else {
+                    document.write('<link rel="stylesheet" href="portable404error.css">');
+                }
+
+            </script>
             
         </head>
 
