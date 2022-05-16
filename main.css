@@ -27,3 +27,7 @@ h2 {
 a {
     color: #38A8C5;
 }
+
+img {
+    max-width: 900px;
+}
