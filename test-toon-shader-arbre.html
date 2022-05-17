@@ -14,37 +14,38 @@
         </style>
         
     
-    </body id="content">
+    </body>
 
-       
-    <head>
+    
+    <body id="content">
         
-        <meta charset="utf-8" />
-        <title>Projet animation Lune de Givre</title>
-        <link rel="icon" href="icon.png">
         
-        <script>
+        <head>
+        
+            <meta charset="utf-8" />
+            <title>Projet animation Lune de Givre</title>
+            <link rel="icon" href="icon.png">
+        
+            <script>
 
-                if( navigator.userAgent.match(/iPhone/i)
-                    || navigator.userAgent.match(/webOS/i)
-                    || navigator.userAgent.match(/Android/i)
-                    || navigator.userAgent.match(/iPad/i)
-                    || navigator.userAgent.match(/iPod/i)
-                    || navigator.userAgent.match(/BlackBerry/i)
-                    || navigator.userAgent.match(/Windows Phone/i)
-                ){
-                    document.write('<link rel="stylesheet" href="portable.css">');
-                } else {
-                    document.write('<link rel="stylesheet" href="main.css">');
-                }
+                    if( navigator.userAgent.match(/iPhone/i)
+                        || navigator.userAgent.match(/webOS/i)
+                        || navigator.userAgent.match(/Android/i)
+                        || navigator.userAgent.match(/iPad/i)
+                        || navigator.userAgent.match(/iPod/i)
+                        || navigator.userAgent.match(/BlackBerry/i)
+                        || navigator.userAgent.match(/Windows Phone/i)
+                    ){
+                        document.write('<link rel="stylesheet" href="portable.css">');
+                    } else {
+                        document.write('<link rel="stylesheet" href="main.css">');
+                    }
 
-        </script>
+            </script>
    
-    </head>
-    
-    
-    <body>
+        </head>
 
+        
         <h1>Test du "toon shader" avec un arbre</h1>
         
         <p>Le "toon shader" est un shader, c'est-à-dire un "matériaux" que l'on applique à un objet pour lui donnser une couleur. Le toon shader affiche différentes couleurs selon la luminosité à chaques endroits, et permet donc d'obtenir un effet cartoon. A cela rajouté des ombres par des traits noirs en dégradé aussi en fonction de l'éclairage, cela donne le résultat en-dessous !<br/>
