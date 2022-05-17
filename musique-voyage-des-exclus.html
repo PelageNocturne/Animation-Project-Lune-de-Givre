@@ -18,34 +18,42 @@
     </body>
 
        
-    <head>
+    <body id="content">
         
-        <meta charset="utf-8" />
-        <title>Projet animation Lune de Givre</title>
-        <link rel="icon" href="icon.png">
         
-        <script>
+        <head>
+        
+            <meta charset="utf-8" />
+            <title>Projet animation Lune de Givre</title>
+            <link rel="icon" href="icon.png">
+        
+            <script>
 
-                if( navigator.userAgent.match(/iPhone/i)
-                    || navigator.userAgent.match(/webOS/i)
-                    || navigator.userAgent.match(/Android/i)
-                    || navigator.userAgent.match(/iPad/i)
-                    || navigator.userAgent.match(/iPod/i)
-                    || navigator.userAgent.match(/BlackBerry/i)
-                    || navigator.userAgent.match(/Windows Phone/i)
-                ){
-                    document.write('<link rel="stylesheet" href="portable.css">');
-                } else {
-                    document.write('<link rel="stylesheet" href="main.css">');
-                }
+                    if( navigator.userAgent.match(/iPhone/i)
+                        || navigator.userAgent.match(/webOS/i)
+                        || navigator.userAgent.match(/Android/i)
+                        || navigator.userAgent.match(/iPad/i)
+                        || navigator.userAgent.match(/iPod/i)
+                        || navigator.userAgent.match(/BlackBerry/i)
+                        || navigator.userAgent.match(/Windows Phone/i)
+                    ){
+                        document.write('<link rel="stylesheet" href="portable.css">');
+                    } else {
+                        document.write('<link rel="stylesheet" href="main.css">');
+                    }
 
-        </script>
+            </script>
    
-    </head>
+        </head>
     
     
-    <body>
-
+        <script type="text/javascript">    <!-- Permet le chargement du CSS avant l'affichage de la page -->
+ 
+            document.body.className += " hasJS"; 
+ 
+        </script>
+        
+        
         <h1>Musique du voyage</h1>
         
         <p>L'idée, ce serait de faire comme dans "Le Roi lion", quand Symba grandit avec Timon et Pumba, eux restent au centre de l'écran mais l'arrière-plan change. Sinon c'est un extrait de <a href="https://youtu.be/KZWfD0JUm4Q?t=116" target="_blank">Autre Part</a> de Bigflo et Oli, de 1:55 à 2:40, soit 45 sec.<br/>
