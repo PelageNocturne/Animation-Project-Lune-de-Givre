@@ -1,0 +1,3 @@
+$ git init --bare ~/project.git
+$ curl -L -o ~/project.git/hooks/post-receive https://raw.githubusercontent.com/alwaysdata/autodeploy-git-hook/master/post-receive
+$ chmod +x project.git/hooks/post-receive
